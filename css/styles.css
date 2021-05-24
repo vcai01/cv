@@ -1,3 +1,5 @@
+/* generic style */
+
 body {
     color: #40514e;
     font-family: 'Merriweather', serif;
@@ -39,8 +41,9 @@ hr {
 
 a {
     color: #11999e;
-    font-size: 1.1rem;
-    margin: 10px 20px;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin: 0;
     text-decoration: none;
 }
 
@@ -49,9 +52,7 @@ a:hover {
 }
 
 
-.footer-link:hover {
-    color: white;
-}
+/* body */
 
 .top-container {
     background-color: #e4f9f5;
@@ -65,7 +66,7 @@ a:hover {
     top: 40px; 
 }
 
-.middle-cloud {
+.bottom-cloud {
     bottom: 300px;
     left: 250px;
     position: absolute;
@@ -74,13 +75,6 @@ a:hover {
 .middle-container {
     background-color: white;
     margin: 0 auto;
-}
-
-.bottom-container {
-    background-color: #66bfbf;
-    line-height: 1;
-    margin-top: 60px;
-    padding: 20px 0 0;
 }
 
 .intro {
@@ -114,15 +108,13 @@ a:hover {
 .dev-img {
     float: left;
     margin-right: 50px;
-    width: 250px;
-    
+    width: 250px; 
 }
 
 .cooking-img {
     float: right;
     margin-left: 50px;
     width: 250px;
-    
 }
 
 .contact-message {
@@ -157,10 +149,26 @@ a:hover {
     text-decoration: none;
   }
 
+
+/* footer */
+
+.bottom-container {
+    background-color: #66bfbf;
+    line-height: 1;
+    margin-top: 60px;
+    padding: 20px 0 0;
+}
+
+.footer-link {
+    margin: 10px 20px;
+}
+
+.footer-link:hover {
+    color: #ffffff;;
+}
+
 .copyright {
     color:#e2fafa;
     font-size: 1rem;
     padding: 10px 0;
 }
-
-
